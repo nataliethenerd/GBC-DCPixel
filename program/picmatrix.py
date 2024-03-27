@@ -23,7 +23,7 @@ def convert_image_to_code(image_path):
         return f"Error: {e}"
 
 if __name__ == "__main__":
-    image_path = "C:/Users/asus/Documents/GitHub/PixelDC/ch552x/pic.png"  # Replace with your image file path
+    image_path = "..."  # Replace with your image file path
     code_output = convert_image_to_code(image_path)
 
     if code_output.startswith("Error"):

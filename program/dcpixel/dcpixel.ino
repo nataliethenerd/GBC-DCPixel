@@ -17,7 +17,7 @@ void setPixel(uint8_t *ledData, uint8_t x, uint8_t y, uint8_t red, uint8_t green
 void clearGrid() {
   for (uint8_t y = 0; y < NUM_LEDS_Y; y++) {
     for (uint8_t x = 0; x < NUM_LEDS_X; x++) {
-      setPixel(ledData, x, y, 0, 0, 0);  // Turn off all LEDs
+      setPixel(ledData, x, y, 0, 0, 0); 
     }
   }
 }
@@ -54,15 +54,10 @@ void fillRainbowStartupAnimation(uint8_t brightness) {
 
       setPixel(ledData, x, y, red, green, blue);
     }
-
-    // Show the updated LED state after each row to create a wave effect
     neopixel_show_P1_4(ledData, NUM_BYTES);
     delay(100);  // Adjust delay to control the speed of the wave
   }
 }
-
-
-
 
 void setup() {
   pinMode(14, OUTPUT);
@@ -82,5 +77,5 @@ void loop() {
   }
 
   neopixel_show_P1_4(ledData, NUM_BYTES);
-  delay(1000);  // Adjust delay as needed
+  delay(1000);
 }
