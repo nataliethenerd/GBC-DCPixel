@@ -1,6 +1,6 @@
 # GBC-DCPixel
 
-![pic](https://github.com/nataliethenerd/GBC-DCPixel/blob/fa8576c19f384e4fbf995751ae0dfb9b78ee7128/assets/kirb.png)
+![pic](https://github.com/nataliethenerd/GBC-DCPixel/blob/34b245951f70a13c49e8f9e8a74cc9b9147e7fc7/assets/GJrHEoiasAAjAU5.jpg)
 
 ## Purchase on PCBWay
 
