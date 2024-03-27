@@ -1,7 +1,6 @@
 # GBC-DCPixel
 
 ![pic](https://github.com/nataliethenerd/GBC-DCPixel/blob/fa8576c19f384e4fbf995751ae0dfb9b78ee7128/assets/kirb.png)
-![board](https://github.com/nataliethenerd/GBC-DCPixel/blob/fa8576c19f384e4fbf995751ae0dfb9b78ee7128/assets/dcpixelcharge.png)
 
 ## Setting up Arduino IDE
 
