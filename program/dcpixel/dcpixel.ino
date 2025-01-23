@@ -82,7 +82,7 @@ void animateImageWithRowWipe(uint8_t* imageBuffer, uint8_t* ledBuffer) {
 
     neopixel_show_P1_4(ledBuffer, NUM_BYTES);
 
-    delay(1000);
+    delay(100);
   }
 }
 
