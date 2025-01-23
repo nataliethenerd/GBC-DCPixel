@@ -12,7 +12,7 @@
 __xdata uint8_t image[NUM_BYTES];
 __xdata uint8_t ledData[NUM_BYTES];
 
-void convert_rgb_to_grb(uint8_t* imageBuffer) {  
+void convertRGBToGRB(uint8_t* imageBuffer) {
   for (size_t i = 0; i < NUM_BYTES; i += COLOR_PER_LEDS) {
     uint8_t red = imageBuffer[i];
     imageBuffer[i] = imageBuffer[i+1];
@@ -49,7 +49,7 @@ void fillRainbowStartupImage(uint8_t* imageBuffer) {
 
   applyBrightnessToImage(BRIGHTNESS_FACTOR, imageBuffer);
 
-  convert_rgb_to_grb(imageBuffer);
+  convertRGBToGRB(imageBuffer);
 }
 
 void fillMainImage(uint8_t* imageBuffer) {
@@ -69,7 +69,7 @@ void fillMainImage(uint8_t* imageBuffer) {
 
   applyBrightnessToImage(BRIGHTNESS_FACTOR, imageBuffer);
 
-  convert_rgb_to_grb(imageBuffer);
+  convertRGBToGRB(imageBuffer);
 }
 
 void animateImageWithRowWipe(uint8_t* imageBuffer, uint8_t* ledBuffer) {
